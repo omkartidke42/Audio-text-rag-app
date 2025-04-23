@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG Audio QA</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎧 Audio Question Answering</h1>
+        <form method="post" enctype="multipart/form-data">
+            <label>Upload audio file (MP3/WAV):</label><br>
+            <input type="file" name="audio" required><br><br>
+            
+            <label>Ask a question about the audio:</label><br>
+            <input type="text" name="question" required><br><br>
+            
+            <button type="submit">Get Answer</button>
+        </form>
+
+        {% if answer %}
+        <div class="result">
+            <h2>💬 Answer:</h2>
+            <p>{{ answer }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

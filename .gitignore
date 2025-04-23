@@ -1,0 +1,37 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+*.egg-info/
+
+# Flask
+instance/
+*.db
+*.sqlite
+
+# Virtual Environment
+venv/
+env/
+ENV/
+*.env
+
+# Model files (these are large and should not be tracked)
+*.h5
+*.bin
+*.pt
+*.ckpt
+*.model
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# System-specific files
+.DS_Store
+Thumbs.db
