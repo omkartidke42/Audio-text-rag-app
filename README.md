@@ -133,7 +133,9 @@ RAG-Audio-QA/
 ├── venv/                       # Virtual environment (ignored by Git)
 └── README.md                   # Documentation (this file)
 ```
+Results : 
 
+![Screenshot from 2025-04-23 11-32-22](https://github.com/user-attachments/assets/fa25b0b3-f88d-41dc-8444-fdc157aa58d3)
 
 🧑‍💻 Git Ignore
 The .gitignore file will ignore unnecessary files like:
